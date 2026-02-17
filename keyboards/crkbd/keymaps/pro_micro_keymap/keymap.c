@@ -109,7 +109,7 @@ bool oled_task_user() {
             oled_write("Nav Layer", false);
             break;
         case _SYM:
-            oled_write("Symbol Layer", false);
+            oled_write("Sym Layer", false);
             break;
         case _NUM:
             oled_write("Number Layer", false);
