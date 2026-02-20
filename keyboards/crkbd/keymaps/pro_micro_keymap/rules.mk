@@ -1,3 +1,6 @@
 OLED_ENABLE = yes
 LTO_ENABLE = yes
 WPM_ENABLE = yes
+
+SRC += bongo_cat.c
+
