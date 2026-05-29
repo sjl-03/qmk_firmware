@@ -6,3 +6,7 @@ To compile pro_micro_keymap
 ```
 qmk compile -kb crkbd/rev1 -km pro_micro_keymap
 ```
+
+```
+qmk compile -kb sofle/rev1 -km default -e CONVERT_TO=promicro_rp2040
+```
