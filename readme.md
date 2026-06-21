@@ -41,7 +41,7 @@ Please enter your choice: [1] 12
 Ψ Created a new keymap called promicro_rp2040 in: /Users/shenjunlu/qmk_firmware/keyboards/sofle/keymaps/promicro_rp2040.
 Ψ Compile a firmware with your new keymap by typing: qmk compile -kb sofle/rev1 -km promicro_rp2040.
 ```
-
+For QMK, LED is in keymap.c and keymap is defined in keymap.json
 ```
 qmk compile -kb sofle/rev1 -km promicro_rp2040
 ```
