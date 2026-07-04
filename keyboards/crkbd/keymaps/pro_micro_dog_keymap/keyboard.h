@@ -11,7 +11,6 @@
 #include "os.h"
 #include "homerow.h"
 #include "luna.h"
-#include "rgb.h"
 
 enum layers {
     _BASE = 0,
