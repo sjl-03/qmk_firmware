@@ -188,9 +188,9 @@ static void print_status_narrow(void) {
     oled_write("MODE ", false);
 
     if (keymap_config.swap_lctl_lgui) {
-        oled_write("MAC  ", false);
-    } else {
         oled_write("WIN  ", false);
+    } else {
+        oled_write("MAC  ", false);
     }
 
     switch (get_highest_layer(default_layer_state)) {
