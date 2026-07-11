@@ -153,12 +153,9 @@ static void render_luna(int LUNA_X, int LUNA_Y) {
     }
 
 #    if OLED_TIMEOUT > 0
-    /* the animation prevents the normal timeout from occuring */
+    /* Let QMK manage OLED power state; only skip animation work while idle. */
     if (last_input_activity_elapsed() > OLED_TIMEOUT && last_led_activity_elapsed() > OLED_TIMEOUT) {
-        oled_off();
         return;
-    } else {
-        oled_on();
     }
 #    endif
 
